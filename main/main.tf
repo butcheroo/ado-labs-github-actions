@@ -41,10 +41,10 @@ resource "random_integer" "name_suffix" {
   #resource_group_name = azurerm_resource_group.app_service.name
   #app_service_plan_id = azurerm_app_service_plan.app_service.id
   
-  source_control {
-    repo_url = "https://github.com/ned1313/nodejs-docs-hello-world"
-    branch = "main"
-    manual_integration = true
-    use_mercurial = false
-  }
+ # source_control {
+  #  repo_url = "https://github.com/ned1313/nodejs-docs-hello-world"
+   # branch = "main"
+    ##manual_integration = true
+    #use_mercurial = false
+  #}
 #}
